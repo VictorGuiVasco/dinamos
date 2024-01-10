@@ -18,9 +18,9 @@ function NavBarComponent() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="absolute inset-x-0 top-0 z-50 bg-[#FFF8F4]">
+    <header className="flex justify-center absolute inset-x-0 top-0 z-50 bg-[#FFF8F4]">
       <nav
-        className=" flex items-center justify-between p-6 lg:px-8"
+        className="flex items-center justify-between p-6 lg:px-8 w-full max-w-7xl"
         aria-label="Global"
       >
         <div className="flex lg:flex-1 h-[3.125rem]">
