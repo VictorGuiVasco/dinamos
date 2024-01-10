@@ -1,5 +1,7 @@
-import { NavBarComponent } from '@/presentation/components/navBar'
 import { HeroComponent } from './components/hero'
+import { AboutPanel } from './components/aboutPanel'
+
+import { NavBarComponent } from '@/presentation/components/navBar'
 
 import styles from './styles.module.scss'
 
@@ -8,6 +10,7 @@ function HomePage() {
     <div className={styles.page}>
       <NavBarComponent />
       <HeroComponent />
+      <AboutPanel />
     </div>
   )
 }
