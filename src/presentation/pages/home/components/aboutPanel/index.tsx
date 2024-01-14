@@ -4,11 +4,11 @@ import dinamos from '/public/images/dinamos-group-2.jpeg'
 
 function AboutPanel() {
   return (
-    <div className="h-screen flex justify-center">
+    <div className="h-[95vh] flex justify-center">
       <div className="h-full flex items-center max-w-7xl isolate px-6 py-14 lg:py-8">
-        <div className="items-center mx-auto max-w-2xl lg:mx-0 lg:flex lg:max-w-7xl">
-          <div className="text-center w-[39rem]">
-            <h1 className="mb-8 text-orange-950 text-6xl font-bold">
+        <div className="w-full justify-center items-center mx-auto lg:mx-0 lg:flex lg:max-w-7xl">
+          <div className="text-center lg:w-[39rem]">
+            <h1 className="mb-8 text-orange-950 text-4xl font-bold lg:text-6xl">
               Quem Somos
             </h1>
             <p className="text-orange-950 text-base">
@@ -21,11 +21,11 @@ function AboutPanel() {
             </p>
           </div>
 
-          <div className="flex mt-10 lg:mt-0 lg:ml-10">
+          <div className="flex justify-center mt-10 lg:mt-0 lg:ml-10">
             <Image
               src={dinamos}
               alt=""
-              className="max-w-[40rem] w-full rounded-3xl"
+              className="w-full max-w-[40rem] rounded-3xl"
             />
           </div>
         </div>
