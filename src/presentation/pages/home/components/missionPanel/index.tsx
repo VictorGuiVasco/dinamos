@@ -22,7 +22,7 @@ function MissionPanel() {
             <p className="text-orange-950 text-base">
               Cumprir a ordem de Cristo{' '}
               <span className="font-bold">
-                “Ide por todo o mundo e pregai o evangelho a toda criatura."
+                {'"Ide por todo o mundo e pregai o evangelho a toda criatura."'}
               </span>
               Mc 16.15. Trabalhamos com missões urbanas, evangelismo fora das
               quatro paredes, grupos de células de evangelismo e crescimento,
