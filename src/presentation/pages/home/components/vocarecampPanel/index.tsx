@@ -7,8 +7,8 @@ import { ArrowRight, WhatsappLogo } from '@phosphor-icons/react'
 
 function VocareCampPanel() {
   return (
-    <div className="h-[95vh] flex justify-center bg-[#01402D]">
-      <div className="h-full flex items-center max-w-7xl px-6 py-14 lg:py-8">
+    <div className="flex justify-center bg-[#01402D]">
+      <div className="h-full flex items-center max-w-7xl px-6 py-16 lg:py-12">
         <div className="w-full flex flex-col justify-center items-center mx-auto lg:mx-0 lg:flex lg:max-w-7xl">
           <div className="flex justify-center mb-10 lg:mt-0 lg:ml-10">
             <Image
