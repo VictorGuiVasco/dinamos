@@ -2,11 +2,12 @@ import { HeroComponent } from './components/hero'
 import { AboutPanel } from './components/aboutPanel'
 
 import { NavBarComponent } from '@/presentation/components/navBar'
+import { FooterComponent } from '@/presentation/components/footer'
 
 import { MissionPanel } from './components/missionPanel'
 import { VocareCampPanel } from './components/vocarecampPanel'
-import { FooterComponent } from '@/presentation/components/footer'
 import { Divider } from './components/divider'
+import { InstagramPanel } from './components/instagramPanel'
 
 function HomePage() {
   return (
@@ -19,6 +20,7 @@ function HomePage() {
 
       <MissionPanel />
       <VocareCampPanel />
+      <InstagramPanel />
       <FooterComponent />
     </div>
   )
