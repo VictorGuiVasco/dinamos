@@ -18,10 +18,13 @@ function FooterComponent() {
         <div className="w-full h-[0px] mt-8 mb-6 border border-zinc-700" />
 
         <div className="flex mb-6 gap-4 lg:flex-1">
-          <Link href="#">
+          <Link href="https://wa.me/5592986386131" target="_blank">
             <WhatsappLogo size={32} color="white" />
           </Link>
-          <Link href="#">
+          <Link
+            href="https://www.instagram.com/dinamos_religados/"
+            target="_blank"
+          >
             <InstagramLogo size={32} color="white" />
           </Link>
         </div>

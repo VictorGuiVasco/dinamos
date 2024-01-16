@@ -1,10 +1,9 @@
+import Link from 'next/link'
 import Image from 'next/image'
 
-import { Panel } from '@/presentation/components/panel'
-
 import vocareLogo from '/public/images/vocare-logo.png'
-import arrowRight from '/public/icons/arrow-right.svg'
-import whatsappLogo from '/public/icons/whatsapp-logo.svg'
+
+import { ArrowRight, WhatsappLogo } from '@phosphor-icons/react'
 
 function VocareCampPanel() {
   return (
@@ -28,23 +27,30 @@ function VocareCampPanel() {
           </p>
 
           <div className="justify-center items-center gap-2.5 inline-flex mt-8">
-            <button className="px-6 py-4 bg-[#D7E9B9] rounded-[7px] justify-center items-center gap-2.5 inline-flex">
+            <Link
+              href="https://wa.me/5592986386131"
+              target="_blank"
+              className="px-6 py-4 bg-[#D7E9B9] rounded-[7px] justify-center items-center gap-2.5 inline-flex"
+            >
               <div className="justify-start items-center gap-2.5 inline-flex">
                 <div className="text-center text-[#121F02] text-base font-medium leading-tight">
                   Entre em Contato
                 </div>
-                <Image src={whatsappLogo} alt="" className="w-6 h-6" />
+                <WhatsappLogo size={24} color="#121F02" />
               </div>
-            </button>
+            </Link>
 
-            <button className="px-6 py-4 bg-[#D7E9B9] rounded-[7px] justify-center items-center gap-2.5 inline-flex">
+            <Link
+              href="#"
+              className="px-6 py-4 bg-[#D7E9B9] rounded-[7px] justify-center items-center gap-2.5 inline-flex"
+            >
               <div className="justify-start items-center gap-2.5 inline-flex">
                 <div className="text-center text-[#121F02] text-base font-medium leading-tight">
                   Saiba Mais
                 </div>
-                <Image src={arrowRight} alt="" className="w-6 h-6" />
+                <ArrowRight size={24} color="#121F02" />
               </div>
-            </button>
+            </Link>
           </div>
         </div>
       </div>
