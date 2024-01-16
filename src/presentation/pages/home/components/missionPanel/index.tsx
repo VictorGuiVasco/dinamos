@@ -5,7 +5,6 @@ import missionImg2 from '/public/images/dinamos-mission-2.jpg'
 import missionImg3 from '/public/images/dinamos-mission-3.jpg'
 
 import { Panel } from '@/presentation/components/panel'
-import { ImageCard } from '@/presentation/components/imageCard'
 
 function MissionPanel() {
   return (
