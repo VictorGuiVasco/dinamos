@@ -1,18 +1,38 @@
 import Image from 'next/image'
 
-import dinamos from '/public/images/dinamos-mission.png'
+import missionImg from '/public/images/dinamos-mission.jpg'
+import missionImg2 from '/public/images/dinamos-mission-2.jpg'
+import missionImg3 from '/public/images/dinamos-mission-3.jpg'
+
 import { Panel } from '@/presentation/components/panel'
+import { ImageCard } from '@/presentation/components/imageCard'
 
 function MissionPanel() {
   return (
     <Panel>
-      <div className="w-full grid grid-rows-1 justify-center items-center mx-auto lg:mx-0 lg:flex lg:max-w-7xl">
-        <div className="flex justify-center order-last lg:order-first mt-10 lg:mt-0 lg:mr-10">
-          <Image
-            src={dinamos}
-            alt=""
-            className="h-full w-auto max-h-[25rem] lg:max-h-[35rem] object-cover rounded-3xl"
-          />
+      <div className="w-full flex flex-col justify-center items-center mx-auto lg:mx-0 lg:flex lg:flex-row lg:max-w-7xl">
+        <div className="h-[323px] w-[312px] relative flex self-center order-last lg:order-first mt-8 lg:mt-0 lg:mr-10">
+          <div className="left-[152px] top-[69.23px] absolute w-40 h-[254px] rounded-2xl shadow border-8 border-[#FFF8F4]">
+            <Image
+              src={missionImg}
+              alt=""
+              className="h-full object-cover rounded-lg shadow-inner"
+            />
+          </div>
+          <div className="left-0 top-[34.62px] absolute w-40 h-[254px] rounded-2xl shadow border-8 border-[#FFF8F4]">
+            <Image
+              src={missionImg3}
+              alt=""
+              className="h-full w-auto object-cover rounded-lg shadow-inner"
+            />
+          </div>
+          <div className="left-[76px] top-0 absolute w-40 h-[254px] rounded-2xl shadow border-8 border-[#FFF8F4]">
+            <Image
+              src={missionImg2}
+              alt=""
+              className="h-full w-auto object-cover rounded-lg shadow-inner"
+            />
+          </div>
         </div>
 
         <div className="text-center lg:w-[39rem]">
