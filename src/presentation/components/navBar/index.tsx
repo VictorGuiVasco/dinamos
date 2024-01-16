@@ -20,7 +20,7 @@ function NavBarComponent() {
   return (
     <header className="flex justify-center absolute inset-x-0 top-0 z-50 bg-[#FFF8F4]">
       <nav
-        className="flex items-center justify-between p-6 lg:px-8 w-full max-w-7xl"
+        className="w-full flex items-center justify-between p-6 max-w-7xl"
         aria-label="Global"
       >
         <div className="flex lg:flex-1 h-[3.125rem]">

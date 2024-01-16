@@ -6,6 +6,7 @@ import { NavBarComponent } from '@/presentation/components/navBar'
 import { MissionPanel } from './components/missionPanel'
 import { VocareCampPanel } from './components/vocarecampPanel'
 import { FooterComponent } from '@/presentation/components/footer'
+import { Divider } from './components/divider'
 
 function HomePage() {
   return (
@@ -13,6 +14,9 @@ function HomePage() {
       <NavBarComponent />
       <HeroComponent />
       <AboutPanel />
+
+      <Divider />
+
       <MissionPanel />
       <VocareCampPanel />
       <FooterComponent />

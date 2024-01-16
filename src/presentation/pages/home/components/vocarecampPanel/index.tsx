@@ -9,8 +9,8 @@ function VocareCampPanel() {
   return (
     <div className="flex justify-center bg-[#01402D]">
       <div className="h-full flex items-center max-w-7xl px-6 py-20 lg:py-12">
-        <div className="w-full flex flex-col justify-center items-center mx-auto lg:mx-0 lg:flex lg:max-w-7xl">
-          <div className="flex justify-center mb-10 lg:mt-0 lg:ml-10">
+        <div className="w-full flex flex-col justify-center items-center gap-6 mx-auto lg:mx-0 lg:max-w-7xl">
+          <div className="flex justify-center">
             <Image
               src={vocareLogo}
               alt=""
@@ -18,7 +18,7 @@ function VocareCampPanel() {
             />
           </div>
 
-          <p className="text-white text-base text-center lg:w-[39rem]">
+          <p className="text-white text-base text-center max-w-[40rem]">
             O VocareCamp é um projeto de apoio e treinamento para Jovens e
             Adolescentes Cristãos que tem fome por Deus e buscam o despertar de
             seu real propósito e vocação na terra, para que o Reino de Deus seja
