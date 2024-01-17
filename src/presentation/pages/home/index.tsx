@@ -4,10 +4,12 @@ import { AboutPanel } from './components/aboutPanel'
 import { NavBarComponent } from '@/presentation/components/navBar'
 import { FooterComponent } from '@/presentation/components/footer'
 
-import { MissionPanel } from './components/missionPanel'
-import { VocareCampPanel } from './components/vocarecampPanel'
-import { Divider } from './components/divider'
-import { InstagramPanel } from './components/instagramPanel'
+import {
+  Divider,
+  InstagramPanel,
+  MissionPanel,
+  VocareCampPanel,
+} from './components/'
 
 function HomePage() {
   return (

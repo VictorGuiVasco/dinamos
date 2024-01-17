@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import Link from 'next/link'
+import Image from 'next/image'
 
 import { InstagramLogo, WhatsappLogo } from '@phosphor-icons/react'
 
@@ -15,12 +15,13 @@ function FooterComponent() {
           </Link>
         </div>
 
-        <div className="w-full h-[0px] mt-8 mb-6 border border-zinc-700" />
+        <div className="w-full h-0 mt-8 mb-6 border border-zinc-700" />
 
         <div className="flex mb-6 gap-4 lg:flex-1">
           <Link href="https://wa.me/5592986386131" target="_blank">
             <WhatsappLogo size={32} color="white" />
           </Link>
+
           <Link
             href="https://www.instagram.com/dinamos_religados/"
             target="_blank"
@@ -29,7 +30,7 @@ function FooterComponent() {
           </Link>
         </div>
 
-        <p className="opacity-50 text-center text-white text-[9px] font-normal font-['Roboto'] tracking-tight">
+        <p className="text-center text-[9px] text-white opacity-50 tracking-tight">
           Copyright © 2024 | All Rights Reserved
           <br />
           Created with love by Victor Guilherme

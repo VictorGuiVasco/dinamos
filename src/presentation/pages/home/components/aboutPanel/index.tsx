@@ -1,7 +1,8 @@
 import Image from 'next/image'
 
-import dinamos from '/public/images/dinamos-group-2.jpeg'
 import { Panel } from '@/presentation/components/panel'
+
+import dinamos from '/public/images/dinamos-group-2.jpeg'
 
 function AboutPanel() {
   return (
