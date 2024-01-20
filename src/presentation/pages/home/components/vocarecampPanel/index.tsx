@@ -8,7 +8,7 @@ import vocareLogo from '/public/images/vocare-logo.png'
 function VocareCampPanel() {
   return (
     <div className="flex justify-center bg-[#01402D]">
-      <div className="h-full w-full flex items-center max-w-7xl px-6 py-14 lg:py-12">
+      <div className="h-full w-full flex items-center max-w-7xl px-6 py-14 lg:py-16">
         <div className="w-full flex flex-col justify-center items-center gap-6 mx-auto lg:mx-0 lg:max-w-7xl">
           <div className="flex justify-center">
             <Image
