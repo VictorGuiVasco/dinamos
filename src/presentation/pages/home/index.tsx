@@ -6,6 +6,7 @@ import { FooterComponent } from '@/presentation/components/footer'
 
 import {
   Divider,
+  GroupsPanel,
   InstagramPanel,
   MissionPanel,
   VocareCampPanel,
@@ -22,6 +23,7 @@ function HomePage() {
 
       <MissionPanel />
       <VocareCampPanel />
+      <GroupsPanel />
       <InstagramPanel />
       <FooterComponent />
     </div>

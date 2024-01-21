@@ -11,7 +11,6 @@ import logoMini from '../../assets/logotipo.svg'
 const navigation = [
   { name: 'VocareCamp', href: '#', current: true },
   { name: 'Blog', href: '#', current: false },
-  { name: 'Localização', href: '#', current: false },
 ]
 
 function NavBarComponent() {
