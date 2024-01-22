@@ -1,3 +1,4 @@
+'use client'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -10,7 +11,7 @@ function FooterComponent() {
     <div className="flex justify-center bg-[#272727]">
       <div className="h-full w-full flex flex-col items-center max-w-7xl p-6 lg:py-8">
         <div className="flex lg:flex-1">
-          <Link href="#">
+          <Link href="/">
             <Image className="w-auto h-[4rem]" src={logoMini} alt="" />
           </Link>
         </div>

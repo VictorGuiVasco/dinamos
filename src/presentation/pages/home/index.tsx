@@ -1,7 +1,6 @@
 import { HeroComponent } from './components/hero'
 import { AboutPanel } from './components/aboutPanel'
 
-import { NavBarComponent } from '@/presentation/components/navBar'
 import { FooterComponent } from '@/presentation/components/footer'
 
 import {
@@ -14,8 +13,7 @@ import {
 
 function HomePage() {
   return (
-    <div className="relative bg-[#fff8f4]">
-      <NavBarComponent />
+    <>
       <HeroComponent />
       <AboutPanel />
 
@@ -25,8 +23,7 @@ function HomePage() {
       <VocareCampPanel />
       <GroupsPanel />
       <InstagramPanel />
-      <FooterComponent />
-    </div>
+    </>
   )
 }
 
